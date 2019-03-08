@@ -1,13 +1,47 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,600");
+
 body {
   padding: 0;
   margin: 0;
 }
 
-header {
-  padding: 0px 12px;
+header.main-page {
+  padding: 0 0 0 12px;
   background-color: #d33830;
-  width: 100%;
   display: flex;
+}
+
+.sub {
+  padding: 0 12px 0 12px;
+  background-color: white;
+  border-bottom: 1px solid black;
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sub > div {
+  max-width: 840px;
+  left: 0;
+  display: flex;
+}
+
+@media only screen and (min-width: 700px) {
+  .sub > div {
+    margin: auto;
+    width: 80%;
+  }
+}
+
+.sub > div > p {
+  font-family: "montserrat", sans-serif;
+  font-weight: 400;
+}
+
+.sub > div > a {
+  margin: auto 18px auto 0;
+  padding: 3px 0 0 0;
 }
 
 header ul {
@@ -27,6 +61,54 @@ header ul li a {
 
 header ul li a:hover {
   font-weight: 600;
+}
+
+.content {
+  margin: 52px 0 36px;
+}
+
+.content > p {
+  width: 80%;
+  max-width: 820px;
+  margin: 16px auto;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 14px;
+}
+
+.content > img {
+  width: 100%;
+}
+
+.post-entry {
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+
+.post-bubble {
+  border-radius: 100%;
+  width: 24vw;
+  height: 24vw;
+  border: #d33830 solid 6px;
+  margin-right: 12px;
+}
+
+.post-info {
+  margin: auto 0;
+}
+
+.post-type {
+  font-family: "montserrat", sans-serif;
+  font-style: italic;
+  color: #d33830;
+  font-size: 2.6vw;
+  margin: 0;
+}
+
+.post-description {
+  font-family: "montserrat", sans-serif;
+  font-size: 4vw;
+  margin: 0;
 }
 
 .headline {
