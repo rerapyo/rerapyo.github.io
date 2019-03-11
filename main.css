@@ -85,10 +85,62 @@ header ul li a:hover {
   width: 100%;
 }
 
+.headline {
+  width: 100%;
+  padding: 0;
+  background-color: #f6f6f6;
+  border-top: 1px solid #e3827d;
+  border-bottom: 1px solid #e3827d;
+}
+
+.headline-label {
+  max-width: 80vw;
+  padding: 3vw 0;
+  margin: auto;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 4vw;
+}
+
+.timeline {
+  padding: 3vh 4vw;
+}
+
+/* .timeline ol li:not(:last-child):after {
+  border-left: 1vmin solid #d33830;
+  position: absolute;
+  left: calc(24vw + 12px);
+  height: 9vmin;
+  content: "";
+} */
+
+.timeline ol {
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+  padding: 0;
+  margin: 4vmin 0 2vmin 0;
+}
+
+.timeline ol li {
+  margin: 0 0 9vmin 0;
+  font-size: 3vmin;
+}
+
 .post-entry {
   display: flex;
   width: 80%;
   margin: auto;
+  text-decoration: none;
+}
+
+.post-entry a {
+  text-decoration: underline rgb(224, 224, 224);
+  color: black;
+}
+
+.post-entry a:hover {
+  text-decoration: underline #d33830;
+  color: black;
 }
 
 .post-bubble {
@@ -113,49 +165,8 @@ header ul li a:hover {
 
 .post-description {
   font-family: "montserrat", sans-serif;
-  font-size: 4vw;
+  font-size: 3.2vw;
   margin: 0;
-}
-
-.headline {
-  width: 100%;
-  padding: 0;
-  background-color: #f6f6f6;
-  border-top: 1px solid #e3827d;
-  border-bottom: 1px solid #e3827d;
-}
-
-.headline-label {
-  max-width: 80vw;
-  padding: 3vw 0;
-  margin: auto;
-  text-align: center;
-  font-family: "Montserrat", sans-serif;
-  font-size: 4vw;
-}
-
-.timeline {
-  padding: 3vh 4vw;
-}
-
-.timeline-header {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 600;
-  font-size: 4vmin;
-  margin: auto;
-  padding-bottom: 1vh;
-}
-
-.timeline ol {
-  /* list-style: none; */
-  font-family: "Montserrat", sans-serif;
-  padding: 0;
-  margin: 0;
-}
-
-.timeline ol li {
-  margin: 0 0 4vmin 0;
-  font-size: 3vmin;
 }
 
 footer {
@@ -166,6 +177,7 @@ footer {
   width: 100%;
   bottom: 0px;
   left: 0;
+  overflow: hidden;
 }
 
 .footer-disclaimer {
