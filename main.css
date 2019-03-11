@@ -111,13 +111,15 @@ header ul li a:hover {
   padding: 3vh 4vw;
 }
 
-/* .timeline ol li:not(:last-child):after {
-  border-left: 1vmin solid #d33830;
+.timeline ol li:not(:last-child):after {
+  border-left: 6px solid #d33830;
   position: absolute;
-  left: calc(24vw + 12px);
-  height: 9vmin;
+  left: calc(24vw + 1.5vw);
+  height: 6vh;
   content: "";
-} */
+  margin: 0;
+  padding: 0;
+}
 
 .timeline ol {
   list-style: none;
@@ -127,7 +129,7 @@ header ul li a:hover {
 }
 
 .timeline ol li {
-  margin: 0 0 9vmin 0;
+  margin: 0 0 6vh 0;
   font-size: 3vmin;
 }
 
@@ -150,8 +152,10 @@ header ul li a:hover {
 
 .post-bubble {
   border-radius: 100%;
-  width: 24vw;
-  height: 24vw;
+  max-width: 24vw;
+  max-height: 24vw;
+  width: 100%;
+  height: 100%;
   border: #d33830 solid 6px;
   margin-right: 12px;
 }
