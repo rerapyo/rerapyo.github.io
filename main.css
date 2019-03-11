@@ -9,6 +9,10 @@ header.main-page {
   padding: 0 0 0 12px;
   background-color: #d33830;
   display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 .logo {
@@ -88,6 +92,7 @@ header ul li a:hover {
 .headline {
   width: 100%;
   padding: 0;
+  margin: 82px 0 0 0;
   background-color: #f6f6f6;
   border-top: 1px solid #e3827d;
   border-bottom: 1px solid #e3827d;
