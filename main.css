@@ -110,6 +110,11 @@ h2 {
   margin-bottom: 6px;
 }
 
+.content .small {
+  width: 80%;
+  height: 80%;
+}
+
 @media only screen and (min-width: 900px) {
   .third {
     display: flex;
@@ -118,6 +123,17 @@ h2 {
   .third img {
     width: 33%;
     height: 33%;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .half {
+    display: flex;
+  }
+
+  .half img {
+    width: 50%;
+    height: 50%;
   }
 }
 
