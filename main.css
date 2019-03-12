@@ -77,20 +77,44 @@ header ul li a:hover {
   font-weight: 600;
 }
 
+h2 {
+  font-family: "montserrat", sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  color: #d33830;
+  font-size: 2vw;
+  margin: 0;
+}
+
 .content {
   margin: 52px 0 36px;
 }
 
-.content > p {
+.content > :not(img) {
   width: 80%;
   max-width: 820px;
   margin: 16px auto;
+}
+
+.content > p {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 14px;
 }
 
-.content > img {
+.content img {
   width: 100%;
+}
+
+@media only screen and (min-width: 900px) {
+  .third {
+    display: flex;
+  }
+
+  .third img {
+    width: 33%;
+    height: 33%;
+    /* object-fit: contain; */
+  }
 }
 
 .headline {
