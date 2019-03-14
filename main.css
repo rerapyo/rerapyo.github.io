@@ -96,6 +96,7 @@ h2 {
 
 .content {
   margin: 52px 0 30px;
+  background-color: #fdfdfd;
 }
 
 .content > :not(img) {
