@@ -68,6 +68,7 @@ header ul :not(:last-child) {
 header ul li {
   list-style: none;
   display: inline-flex;
+  padding-top: 6px;
 }
 
 .icon img {
@@ -75,6 +76,12 @@ header ul li {
   height: 8vw;
   max-width: 42px;
   max-height: 42px;
+}
+
+.icon img:hover {
+  border-radius: 100%;
+  border: 1px solid white;
+  box-sizing: border-box;
 }
 
 header ul li a {
