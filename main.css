@@ -13,11 +13,14 @@ header.main-page {
   top: 0;
   left: 0;
   width: 100%;
+  z-index: 10;
+  height: 14vw;
+  max-height: 96px;
 }
 
 .logo {
   max-height: 72px;
-  max-width: 75%;
+  max-width: 50%;
   margin: auto 0;
 }
 
@@ -54,18 +57,24 @@ header.main-page {
   padding: 3px 0 0 0;
 }
 
-header {
-  z-index: 10;
+header ul {
+  margin: auto 24px auto auto;
 }
 
-header ul {
-  margin-left: auto;
-  padding: 0 16px 0 0;
-  text-align: right;
+header ul :not(:last-child) {
+  padding-right: 2vw;
 }
 
 header ul li {
   list-style: none;
+  display: inline-flex;
+}
+
+.icon img {
+  width: 8vw;
+  height: 8vw;
+  max-width: 42px;
+  max-height: 42px;
 }
 
 header ul li a {
@@ -140,12 +149,17 @@ h2 {
 .headline {
   width: 100%;
   padding: 0;
-  margin: 82px 0 0 0;
+  margin: 14vw 0 0 0;
   background-color: #f6f6f6;
   border-top: 1px solid #e3827d;
   border-bottom: 1px solid #e3827d;
 }
 
+@media only screen and (min-width: 690px) {
+  .headline {
+    margin: 96px 0 0 0;
+  }
+}
 .headline-label {
   max-width: 80vw;
   padding: 3vw 0;
