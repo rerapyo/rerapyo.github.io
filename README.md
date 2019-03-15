@@ -40,3 +40,25 @@
 16. Clique no símbolo de disquete, na barra direita, para fazer o commit do post novo.
 
 17. Prontinho! Seu post estará publicado!
+
+# Formatação especial de imagens
+
+As imagens são adicionadas no formato de Markdown
+
+    ![texto-alt](link_da_imagem)
+
+Mas é possível adicionar configurações especiais pras mesmas! Basta adicionar chaves francesas e a classe em questão, tal como no exemplo abaixo:
+
+    ![gatinho](kitty.png){:class="half"}
+
+Isso vai resultar na imagem do gatinho usando apenas metade do tamanho disponível. As classes disponíveis são:
+
+    - half (50%)
+    - third (33%)
+    - small (não extende até a borda da tela)
+
+É possível combiná-las:
+
+    ![gatinho](kitty.png){:class="half small"}
+
+Mas evite combinar `half` e `third`, senão pode resultar em erros estranhos de layout.
