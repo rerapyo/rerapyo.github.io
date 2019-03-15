@@ -36,8 +36,9 @@
   }
 
   .third img {
-    width: 33%;
-    height: 33%;
+    width: calc(80 / 3) vw;
+    height: calc(80 / 3) vw;
+    margin: 0;
   }
 }
 
@@ -47,7 +48,8 @@
   }
 
   .half img {
-    width: 50%;
-    height: 50%;
+    width: 40vw;
+    height: 40vw;
+    margin: 0;
   }
 }
