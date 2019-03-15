@@ -20,7 +20,7 @@ The theme of the Jam was "LOSE TO WIN" and her idea was a Coming Out Simulator. 
 
 We started brainstorming how we wanted our game to be and how we would connect everything. That’s when I had the insight of losing fears and prejudices to win who you are. Because in the end, getting out of the closet is all about overcoming your fears and other people prejudices so that you will be able to be who you are. It is also about understanding that you can find little comforts everywhere.
 
-![](/assets/images/post_coming_out_2.png)
+![](/assets/images/post_coming_out_2.png){:class="small"}
 
 First, we thought about making a closet where you had to find objects and read what the fear/prejudice/comfort about them was. Then we realized this was too easy and wouldn’t translate the experience and toughness of the task at hand correctly.
 
@@ -30,19 +30,19 @@ We listed a bunch of prejudices we knew people had, also many fears that we had 
 
 At first, we were going to do two simple puzzles. It was going to be a mechanic for fear and another for prejudice, but we decided we wanted to diversify and level up a bit. Doing four different mechanics:
 
-![](/assets/images/post_coming_out_4.png)
+![](/assets/images/post_coming_out_4.png){:class="small"}
 
 We decided to use a two piece necklace to translate the fear that LGBTQ+ people end up alone and we used a memory puzzle to show that you don’t need to find an exact match. The match to a shoe is a sock. To a discman is an earphone and that people already have full hearts.
 
-![](/assets/images/post_coming_out_5.png)
+![](/assets/images/post_coming_out_5.png){:class="small"}
 
 We used an album to translate the fear that LGBTQ+ people might lose their family and friends when getting out. We used a sliding puzzle for that, because things might not always fit and might be messy, but after moving the pieces around you will get comfortable again and if needed find new friends.
 
-![](/assets/images/post_coming_out_6.png)
+![](/assets/images/post_coming_out_6.png){:class="small"}
 
 We used a circular puzzle to talk about the prejudice that being an LGBTQ+ is just a phase and it will pass. We choose to use the moon because it has many phases, but it always comes back to the same place and form.
 
-![](/assets/images/post_coming_out_7.png)
+![](/assets/images/post_coming_out_7.png){:class="small"}
 
 The last prejudice we decided to address was the one that all LGBTQ+ are promiscuous. We used a fluffy handcuff for it and planned on doing a pipe puzzle into the key. The idea behind it was that you could find your way out and accept yourself and sexual preferences by exploring the ways around. We couldn't implement it on time for the jam.
 

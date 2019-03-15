@@ -21,7 +21,8 @@ I passed on the task to two extremely talented women I met earlier at Women Game
 
 Global Game Jam’s 2019 theme was "What home means to you". With such a subjective theme to work it was hard for I and my team to figure out what we really wanted to do as a game. We brainstormed a bunch of ideas, over 40 of them, and still couldn't get everyone quite satisfied.
 
-<div class="half"><img src="/assets/images/post_cook_2.jpg"/> <img src="/assets/images/post_cook_3.jpg"/></div>
+![](/assets/images/post_cook_2.jpg){:class="half"}
+![](/assets/images/post_cook_3.jpg){:class="half"}
 
 We decided to do a game about food, because for many of us home is a specific taste, and not only that, food can trigger emotions and memories, transporting you back home. Cook me a story is a narrative game, in which the main character tell you bits of story, while giving you tips of what to cook so that you can unlock the rest of the story. We wanted to make three different stories, with an entrance, a main dish and a dessert for each of them.
 

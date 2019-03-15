@@ -4,5 +4,3 @@
 
 layout: home
 ---
-
-bananas are cool, like very cool
