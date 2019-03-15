@@ -45,7 +45,6 @@ main {
 }
 
 .sub {
-  padding: 0 12px 0 12px;
   background-color: white;
   border-bottom: 1px solid black;
   display: flex;
@@ -53,16 +52,16 @@ main {
   top: 0;
   width: 100%;
 
+  @media screen {
+    width: 920px;
+  }
+
   div {
+    padding: 0 12px 0 12px;
     max-width: 840px;
     width: 97%;
     left: 0;
     display: flex;
-
-    @media only screen and (min-width: 700px) {
-      margin: auto;
-      width: 80%;
-    }
   }
 
   p {
