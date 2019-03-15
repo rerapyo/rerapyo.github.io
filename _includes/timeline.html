@@ -1,0 +1,19 @@
+<section class="timeline">
+  <ol>
+    {% for post in site.posts %}
+    <li>
+      <div class="entry">
+        <img src="{{ post.thumb }}" height="92" width="92" class="bubble" />
+        <div class="info">
+          <p class="type">Case study</p>
+          <a href="{{ post.url }}">
+            <p class="description">
+              {{ post.title }}
+            </p></a
+          >
+        </div>
+      </div>
+    </li>
+    {% endfor %}
+  </ol>
+</section>

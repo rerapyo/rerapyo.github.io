@@ -1,0 +1,55 @@
+.content {
+  margin: 50px 0 -25px;
+  background-color: $light-grey;
+  // overflow-x: hidden;
+
+  :not(img) {
+    width: 80%;
+    max-width: 820px;
+    margin: auto;
+  }
+
+  p {
+    font-family: $serif-font;
+    font-size: 14px;
+    margin: 2px auto 16px auto;
+    color: #303030;
+  }
+
+  ol {
+    margin-bottom: 18px;
+  }
+
+  img {
+    width: 100%;
+    // margin: 0 0 6px -10vw;
+    margin-bottom: 6px;
+  }
+}
+
+.small {
+  width: 80%;
+  height: 80%;
+}
+
+@media only screen and (min-width: 900px) {
+  .third {
+    display: flex;
+  }
+
+  .third img {
+    width: 33%;
+    height: 33%;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .half {
+    display: flex;
+  }
+
+  .half img {
+    width: 50%;
+    height: 50%;
+  }
+}

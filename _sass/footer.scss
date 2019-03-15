@@ -1,0 +1,15 @@
+footer {
+  border-top: 1px solid #e3827d;
+  background-color: #f6f6f6;
+  padding: 12px 0;
+  width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+
+  .disclaimer {
+    margin: auto;
+    text-align: center;
+    font-family: $sans-font;
+    font-size: 12px;
+  }
+}

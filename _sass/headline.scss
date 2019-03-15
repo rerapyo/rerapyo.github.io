@@ -1,0 +1,21 @@
+.headline {
+  width: 100%;
+  padding: 0;
+  margin: 14vw 0 0 0;
+  background-color: $light-grey;
+  border-top: 1px solid $red;
+  border-bottom: 1px solid $red;
+
+  @media only screen and (min-width: 690px) {
+    margin: 96px 0 0 0;
+  }
+
+  .label {
+    max-width: 80vw;
+    padding: 3vw 0;
+    margin: auto;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 4vw;
+  }
+}
