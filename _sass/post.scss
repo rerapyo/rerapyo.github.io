@@ -25,31 +25,27 @@
   }
 }
 
-.small {
-  width: 80%;
-  height: 80%;
+img.small {
+  max-width: 100%;
+  margin: 0;
 }
 
-@media only screen and (min-width: 900px) {
-  .third {
-    display: flex;
-  }
+img.third {
+  max-width: 100%;
+  margin: 0;
 
-  .third img {
-    width: calc(80 / 3) vw;
-    height: calc(80 / 3) vw;
-    margin: 0;
+  @media only screen and (min-width: 600px) {
+    max-width: 33.2%;
+    margin: 0 -1px;
   }
 }
 
-@media only screen and (min-width: 600px) {
-  .half {
-    display: flex;
-  }
+img.half {
+  max-width: 100%;
+  margin: 0;
 
-  .half img {
-    width: 40vw;
-    height: 40vw;
-    margin: 0;
+  @media only screen and (min-width: 600px) {
+    max-width: 50%;
+    margin: 0 -1px;
   }
 }
