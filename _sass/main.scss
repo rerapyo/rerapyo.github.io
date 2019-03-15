@@ -42,6 +42,10 @@ main {
   max-height: 72px;
   max-width: 50%;
   margin: auto 0 auto 12px;
+
+  @media screen and (max-width: 320px) {
+    max-width: 40%;
+  }
 }
 
 .sub {
@@ -77,10 +81,18 @@ main {
 
 header {
   ul {
-    margin: auto 24px auto auto;
+    margin: auto 12px auto auto;
+
+    @media screen and (min-width: $desktop-width) {
+      margin: auto 24px auto auto;
+    }
 
     :not(:last-child) {
-      padding-right: 2vw;
+      padding-right: 1.5vw;
+
+      @media screen and (min-width: $desktop-width) {
+        padding-right: 18px;
+      }
     }
 
     li {
