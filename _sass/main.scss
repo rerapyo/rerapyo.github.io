@@ -8,23 +8,30 @@ $desktop-width: 900px;
 
 body {
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
-  height: 100vh;
+
+  @media screen and (min-width: $desktop-width) {
+    width: 920px;
+    border-left: 1px solid $red;
+    border-right: 1px solid $red;
+  }
 }
 
 header.main-page {
-  padding: 0 0 0 12px;
   background-color: $red;
   display: flex;
   position: fixed;
   top: 0;
-  left: 0;
   width: 100%;
   z-index: 10;
   height: 14vw;
   max-height: 96px;
+
+  @media screen and (min-width: $desktop-width) {
+    width: 920px;
+  }
 }
 
 main {
@@ -34,7 +41,7 @@ main {
 .logo {
   max-height: 72px;
   max-width: 50%;
-  margin: auto 0;
+  margin: auto 0 auto 12px;
 }
 
 .sub {
