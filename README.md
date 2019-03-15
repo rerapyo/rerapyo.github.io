@@ -57,8 +57,13 @@ Isso vai resultar na imagem do gatinho usando apenas metade do tamanho disponív
     - third (33%)
     - small (não extende até a borda da tela)
 
-É possível combiná-las:
+É importante estruturar as coisas conforme esperado da tag, para não ter erros estranhos de layout. Exemplo:
 
-    ![gatinho](kitty.png){:class="half small"}
+    ![gatinho](kitty.png){:class="half"}
+    ![gatinho2](kitty2.png){:class="half"}
 
-Mas evite combinar `half` e `third`, senão pode resultar em erros estranhos de layout.
+Ou então:
+
+    ![gatinho](kitty.png){:class="third"}
+    ![gatinho2](kitty2.png){:class="third"}
+    ![gatinho3](kitty3.png){:class="third"}
